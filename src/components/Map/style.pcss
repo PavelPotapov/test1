@@ -1,0 +1,19 @@
+@import "../../app/styles/customMedia.pcss";
+
+.map {
+	background-color: red;
+
+	&__top {
+		background-color: blue;
+	}
+
+	@media (--mobileExtra) {
+		background-color: black;
+	}
+
+	background-image: url("@assets/images/test.jpg");
+}
+
+::placeholder {
+	color: gray;
+}

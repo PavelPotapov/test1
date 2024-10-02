@@ -1,0 +1,1 @@
+.map{background-color:red}.map__top{background-color:blue}@media (max-width:360px){.map{background-color:#000}}.map{background-image:url(../assets/images/test.jpg)}::-webkit-input-placeholder{color:gray}::-moz-placeholder{color:gray}:-ms-input-placeholder{color:gray}::-ms-input-placeholder{color:gray}::placeholder{color:gray}

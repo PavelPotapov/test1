@@ -1,0 +1,2 @@
+(()=>{"use strict";const t={news:"newsPosts"};class n{constructor(){this.btn=document.querySelector("[data-js-btn]"),this.#t(),console.debug("constructor for MapModel")}handleClick(n){fetch(t.news).then((t=>t.json())).then((t=>{console.debug(t)}))}#t(){this.btn&&this.btn.addEventListener("click",(t=>{this.handleClick(t)}))}}document.addEventListener("DOMContentLoaded",(async()=>{new n}))})();
+//# sourceMappingURL=main.db600c5679b2ffbd4b66.bundle.js.map
